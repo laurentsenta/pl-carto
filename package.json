@@ -1,0 +1,24 @@
+{
+  "name": "carto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrap": "ts-node ./src/index.ts",
+    "prepare": "ts-node ./src/prepare.ts",
+    "dist": "cp -r ./data/prepared.json dist/prepared.json",
+    "serve": "npx http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "octokit": "^1.7.1"
+  }
+}

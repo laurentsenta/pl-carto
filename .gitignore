@@ -1,0 +1,6 @@
+.env
+.ipynb_checkpoints/
+*.ipynb
+/node_modules
+data/*
+!data/.keepme
